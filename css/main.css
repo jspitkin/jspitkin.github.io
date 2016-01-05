@@ -91,3 +91,24 @@ a:active {
 h3 {
 	margin-top: 2px;
 }
+
+.projectDescription {
+	position: absolute;
+	width: 320px;
+}
+
+p {
+	margin-top: 5px;
+}
+
+a.projectLink{
+	font-size: 20px;
+}
+
+.projectImage {
+	margin-left: 334px;
+}
+
+.project {
+	margin-left: 10px;
+}
