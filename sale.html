@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+#outer{
+    width:100%;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+#inner{
+    width:50%;
+}
+</style>
+</head>
 	<body>
-
-		<h2>Spectacular Mountain</h2>
-		<img src="images/item1.jpg" style="width:600px;height:600px;">
-
+	<div id="outer">
+		<div id="inner">
+		<h1>All proceeds go to DAPL efforts</h1>
+		<h2>Click images for a larger view</h2>
+		<a href="images/item1.jpg">
+			<img border="0" src="images/item1.jpg" width="300" height="300">
+		</a>	
+		</div>
+	</div>
 	</body>
 </html>
 
